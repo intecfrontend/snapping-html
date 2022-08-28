@@ -1,0 +1,32 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: red;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  overflow: scroll;
+}
+#one {
+  background: lime;
+}
+#two {
+  background: gold;
+}
+#three {
+  background: orange;
+}
+section {
+  flex: none;
+  display: flex;
+  justify-content: centre;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  /* scroll-margin-left: 100px; */
+}
